@@ -12,9 +12,53 @@ a {
   text-decoration: none;
 }
 
-.title {
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0;
 }
+
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+  border: 1px solid #aa0000
+}
+img {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.title {
+  border-bottom: 1px solid #E7E9FC;
+  background: #FFF;
+}
+
+.title-container{
+  display: flex;
+  
+}
+
 .navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
 }
 
 .title-logo {
@@ -25,6 +69,8 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
+  
 }
 
 .title-logo-part {
@@ -32,7 +78,9 @@ a {
 }
 
 .menu-list {
-
+  display: flex;
+  gap: 40px;
+  padding: 24px;
 }
 .menu-item {
 }
@@ -54,11 +102,15 @@ a {
 }
 
 .contact {
-  font-style: normal;
-}
+  padding-top: 24px;
+  }
 .contact-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .contact-item {
+  
 }
 
 .contact-link {
@@ -67,6 +119,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
+  
 }
 
 .contact-link:hover{
@@ -76,6 +129,11 @@ a {
 .contact-link:focus{
   color: #404BBF;
 }
+
+.main-page-container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+  }
 
 .main-page {
   background:#2E2F42;
@@ -87,6 +145,10 @@ a {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+
 }
 
 .main-page-btn {
@@ -98,11 +160,18 @@ a {
   letter-spacing: 0.04em;
   background: #4D5AE5;
   cursor: pointer;
+  display: block;
+  padding: 16px 32px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  margin: 0 auto;
 }
 
 .main-page-btn:hover { 
   background-color: #404BBF;
 }
+
 .main-page-btn:focus {
   background-color: #404BBF;
 }
@@ -111,9 +180,16 @@ a {
   background: #FFF;
 }
 
-.page-skils-title {
+.page-skils-container{
+padding-top: 120px;
+padding-bottom: 120px;
+margin: 0 auto;
+
 }
+
 .page-skils-list {
+  display: flex;
+  gap: 24px;
 }
 .page-skils-item {
 }
@@ -131,6 +207,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 8px;
 }
 
 .page-team {
