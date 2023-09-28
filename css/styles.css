@@ -88,7 +88,6 @@ section {
   gap: 40px;
 }
 .menu-item {
-  padding: 24px 0;
 }
 
 .menu-link {
@@ -97,6 +96,7 @@ section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .menu-link:hover {
@@ -108,7 +108,6 @@ section {
 }
 
 .contact {
-  padding-top: 24px;
   }
 .contact-menu {
   display: flex;
@@ -116,7 +115,6 @@ section {
   gap: 40px;
 }
 .contact-item {
-  
 }
 
 .contact-link {
@@ -328,6 +326,10 @@ line-height: 1,17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
   margin-bottom: 16px;
+  display: inline-block;
+  height: 24px;
+  align-items: center;
+  
 }
 .footer-logo-part{
   color: #F4F4FD;
@@ -336,10 +338,6 @@ text-transform: uppercase;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  display: inline-block;
-height: 24px;
-align-items: center;
-
 }
 
 .footer-descr {
