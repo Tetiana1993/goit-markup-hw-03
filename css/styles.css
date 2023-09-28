@@ -86,9 +86,10 @@ section {
 .menu-list {
   display: flex;
   gap: 40px;
-  padding: 24px;
+  padding: 24px 0;
 }
 .menu-item {
+
 }
 
 .menu-link {
@@ -189,9 +190,10 @@ section {
 
 .page-skils-list {
 display: flex;
-gap: 8px;
-width: calc((100%-24px)/3);
+gap: 24px;
+width: calc((100%-3*24px)/4);
 }
+
 .page-skils-item {
   
 }
@@ -202,6 +204,7 @@ width: calc((100%-24px)/3);
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .skils-item-descr {
@@ -315,6 +318,7 @@ align-self: stretch;
 
 .footer {
   background: #2E2F42;
+  padding: 100px 0;
 }
 
 .footer-logo-part{
@@ -324,11 +328,10 @@ align-self: stretch;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  display: inline-flex;
+  display: inline-block;
 height: 24px;
 align-items: center;
-flex-shrink: 0;
-padding-top: 100px;
+margin-bottom: 16px;
 }
 
 .footer-descr {
@@ -338,6 +341,4 @@ padding-top: 100px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
-  margin-top: 16px;
-  padding-bottom: 100px;
 }
