@@ -86,10 +86,9 @@ section {
 .menu-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .menu-item {
-
+  padding: 24px 0;
 }
 
 .menu-link {
@@ -191,11 +190,10 @@ section {
 .page-skils-list {
 display: flex;
 gap: 24px;
-width: calc((100%-3*24px)/4);
 }
 
 .page-skils-item {
-  
+  width: calc((100%-3*24px)/4);
 }
 
 .skils-item-title {
@@ -320,7 +318,17 @@ align-self: stretch;
   background: #2E2F42;
   padding: 100px 0;
 }
-
+.footer-title-logo {
+  color: #4D5AE5;
+  font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 1,17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+  margin-bottom: 16px;
+}
 .footer-logo-part{
   color: #F4F4FD;
   font-family: "Raleway", sans-serif;
@@ -331,7 +339,7 @@ align-self: stretch;
   display: inline-block;
 height: 24px;
 align-items: center;
-margin-bottom: 16px;
+
 }
 
 .footer-descr {
